@@ -48,3 +48,15 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+@media(min-width:768px){
+    .contenedor-grid
+    {
+        display: flex;
+        gap: 2rem;
+    }
+    .aside-1{
+        order: -1;
+
+    }
+}

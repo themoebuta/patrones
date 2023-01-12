@@ -39,3 +39,15 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+.tres-columnas{
+    gap:2rem;
+}
+
+@media(min-width:768px){
+    .tres-columnas{
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+    }
+
+}
